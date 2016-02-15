@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(37.76, -122.42),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+	<table>
+		<tr>
+		<td width = "950px"><a href = "home.html"><img src = "zen.png" ></a></td>
+    
+		<td align = "center" width = "400"><span id ="japanese">すし屋</span> </td>
+        
+		</tr>
+
+	</table>
+<div class ="nav">
+    <table id="nav">
+    <tr>
+    <td><a href="home.html">Home</a></td>
+    <td><a href="product.html">Product</a></td>
+    <td><a href="schedule.html">Schedule</a></td>
+    <td><a href="order.html">Order</a></td>
+    <td><a href="">Contacts</a></td>
+    <td><a href="help.html">Help</a></td>
+    </tr>
+    </table>
+</div>
+<div class="container">
+   <div class="column-center" style = "height">
+    <h1 id ="centerHeading">Contact us</h1>
+
+
+   <form>
+    <fieldset>
+      <ul style = "list-style-type: none">
+        <li><label>E-mail:</label><input type="email" name="email"></li>
+        <li><label>Subject:</label><input type="text" name="subject"></li>
+  
+        <li><textarea rows = "20" cols= "40"></textarea></li>
+     </ul>
+  </form>
+  </fieldset>
+
+   </div>
+   <div class="column-left">
+    <h1 id = "centerHeading">Current News</h1>
+    <a class="twitter-timeline" href="https://twitter.com/h3dg3Wytch" data-widget-id="671603306683322368">Tweets by @h3dg3Wytch</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+   </div>
+   
+   <div class="column-right">
+    <h1 id ="centerHeading">Location</h1>
+    <div id="map" script="initialize()"></div>
+    <p>綦䧜滦祌䧪 姚榩ちゃふ𐤦, ꤎフォぎょ ぎゅの 駌壪䝧ど騟 鄯骧詞䨺. しにゃウェみ埩, りょ䋥きゅあ廦 マ栨ゑ䦧 て 駌壪䝧ど騟 鏧ぢゅ 䩦こ馣 ウェみ ヂ䦞갣 ヂ䦞갣积う 槣ぎゃ砥櫦勩 と奤詎んっ 靨簥ちゅµ楥 갤禞䦪ヌ騥 しにゃウェみ埩 觟ビェ よホびゅ マ栨ゑ䦧 て びょ馜囨ヴュぜ ꤎフォぎょ 監樦, 䝧ど騟 ꤎフォ 樦チュコ騧れ 갤禞䦪ヌ騥 ーろか訣䛧 げ觟ビェしゅく 廥きょ秚禺た ヌ騥 グァ珣ト, ぢょ簣 ぎゃ砥櫦 䧎壌</p>
+
+    
+
+   </div>
+</div>
+
+
+</body>
+</html>

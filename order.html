@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+	<table>
+		<tr>
+		<td width = "950px"><a href = "home.html"><img src = "zen.png" ></a></td>
+    
+		<td align = "center" width = "400"><span id ="japanese">すし屋</span> </td>
+        
+		</tr>
+
+	</table>
+<div class ="nav">
+    <table id="nav">
+    <tr>
+    <td><a href="home.html">Home</a></td>
+    <td><a href="product.html">Product</a></td>
+    <td><a href="schedule.html">Schedule</a></td>
+    <td><a href="">Order</a></td>
+    <td><a href="contacts.html">Contacts</a></td>
+    <td><a href="help.html">Help</a></td>
+    </tr>
+    </table>
+</div>
+<div class="container">
+   <div class="column-center" style="height: 1000px;">
+
+    <form action=" http://grid.cs.gsu.edu/~mhan7/csc2320_submit.php" method= "POST" style="text-align: center; width: 100%; margin-left: 50px;  ">
+     
+
+      <fieldset>
+         <legend id = "centerHeading">Place an order</legend>
+           <ul style="list-style-type: none">
+              <li><label for="fname">First Name:</label> <input type="text" name="fname"></li>
+              <li><label for="lname">Last Name:</label> <input type="text" name="lname" ></li>
+              <li><label for="street">Street Name:</label> <input type="text" name="street"></li>
+              <li><label for="street">City:</label> <input type="text" name="city"></li>
+                            <li><label for="street">State:</label> <input type="text" name="state"></li>
+
+
+              <li><label for="zipcode">Zip Code:</label> <input type="text" name="zipcode" id="zipcode"></li>
+              <li><label for="itemname">Item name</label> <input type="checkbox" name="itemname" value ="1">尥ろ棃 キャもビェ</li>
+              <li> <input type="checkbox" name="itemname" value ="饯つ䣊">ょ 饯つ䣊</li>
+              <li> <input type="checkbox" name="itemname" value ="ツォ媯ま">ツォ媯ま しゅ</li>
+              <li> <input type="checkbox" name="itemname" value ="䋥ひゃ">䋥ひゃ ぬミ</li>
+
+
+
+              <li><label for="itemsize">Item Size:</label> <input type="radio" name="itemsize" id="itemsize">Small</li>
+              <li><input type="radio" name="itemsize">Medium</li>
+              <li><input type="radio" name="itemsize">Large</li>
+
+              <li><label for="comment">Comments</label> <textarea  name="comment" id="comment" place></textarea></li>
+              <li> <input type="submit" value="Submit"></li>
+          </ul>
+      </fieldset>
+
+    </form>
+   </div>
+   <div class="twoPaneLeft"><h1 id = "centerHeading">Current News</h1>
+    <a class="twitter-timeline" href="https://twitter.com/h3dg3Wytch" data-widget-id="671603306683322368">Tweets by @h3dg3Wytch</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+   </div>
+</div>
+
+
+</body>
+</html>
